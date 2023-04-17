@@ -80,7 +80,7 @@ Materiales: **8**
 
 ## 📋 Diligenciamiento Formularios
 
-1. [Registrar Solicitud](./furmularios/80_registrar_solicitud.md "Formulario Registrar Solicitud")
+1. [Registrar Solicitud](./furmularios/index.md "Formulario Registrar Solicitud")
 
 2. [Registrar Datos Planificación Base](./furmularios/81_registrar_datos_planificacion_base.md "Registrar Datos Planificación Base")
 
