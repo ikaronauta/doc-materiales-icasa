@@ -1,6 +1,6 @@
 # Materiales
 
-- ## :closed_book: Tabla de Contenido
+- ## 📚 Tabla de Contenido
 
 1. [Diagramas](index.md#user-content-%EF%B8%8F-diagramas "Diagramas")
 2. [Descripción General](index.md#user-content--descripción-general "Descripción General")
