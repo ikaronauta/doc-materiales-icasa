@@ -96,5 +96,11 @@ Materiales: **8**
 11. [Realizar Validación Técnica](./furmularios/90_realizar_validacion_tecnica.md "Realizar Validación Técnica")
 
 12. [Revisar y Crear en SAP](./furmularios/91_revisar_y_crear_en_sap.md "Revisar y Crear en SAP")
-    
+
 13. [	Aprobación Vicepresidencia o Sociedad](./furmularios/92_aprobacion_videpresidencia_o_sociedad.md "Aprobación Vicepresidencia o Sociedad")
+
+## 📝 Código
+
+- [getActividadesFlujoGenerables()](./codigo/getActividadesFlujoGenerables.md "getActividadesFlujoGenerables()")
+
+
