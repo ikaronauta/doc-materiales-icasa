@@ -73,106 +73,28 @@ Materiales: **8**
 
 ## 📋 Diligenciamiento Formularios
 
-### Formulario Registrar Solicitud
+1. [Registrar Solicitud](./furmularios/80_registrar_solicitud.md "Formulario Registrar Solicitud")
 
-1. Se debe seleccionar el ***Tipo de Material*** para que se cargue la configuración establecida en el parametrizador de campos para este ese material.
+2. [Registrar Datos Planificación Base](./furmularios/81_registrar_datos_planificacion_base.md "Registrar Datos Planificación Base")
 
-2. Se debe seleccionar una ***Vicepresidencia*** para que se filtren las sociedades.
+3. [Registrar Datos de Impuestos](./furmularios/82_registrar_datos_de_impuestos.md "Registrar Datos de Impuestos")
 
-3. Se debe seleccionar al menos una ***sociedad***.
+4. [Registrar Planificación Producción](./furmularios/83_registrar_planificacion_produccion.md "Registrar Planificación Producción")
 
-4. Se debe seleccionar una ***Clave*** para que se pueda generar una descripción.
+5. [Registrar Planificación Contabilidad](./furmularios/84_registrar_planificacion_contabilidad.md "Registrar Planificación Contabilidad")
 
-5. Los campos ***Denominación*** y ***Descripción larga*** se cargan de acuerdo a lo registrado al ***Generar la Descripción***.
+6. [Registrar Planificación Compras](./furmularios/85_registrar_planificacion_compras.md "Registrar Planificación Compras")
 
-6. Se debe seleccionar al menos un ***Centro*** y ***Generar los Datos de Centro***.
+7. [Registrar Datos de Calidad](./furmularios/86_registrar_datos_calidad.md "Registrar Datos de Calidad")
 
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
->
+8. [Registrar Información de Costos](./furmularios/87_registrar_informacion_de_costos.md "Registrar Información de Costos")
 
----
+9. [Registrar Información de Ventas](./furmularios/88_registrar_informacion_de_ventas.md "Registrar Información de Ventas")
 
-### Formulario Registrar Datos Planificación Base
+10. [Registrar Información de Alamcenamiento](./furmularios/89_registrar_informacion_de_almacenamiento.md "Registrar Información de Almacenamiento")
 
-1. Ingresar datos requeridos en Grid ***"gPlantData"***.
+11. [Realizar Validación Técnica](./furmularios/90_realizar_validacion_tecnica.md "Realizar Validación Técnica")
 
-2. Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
-
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
-
----
-
-### Formulario Registrar Datos de Impuestos
-
-1. Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
-
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
-
----
-
-### Formulario Registrar Información de Costos
-
-1. Ingresar datos requeridos en Grid ***"gPlantData"***.
-
-2. Ingresar datos requeridos en Grid ***"gAccountingData"***.
-
-3. Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
-
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
-
----
-
-### Formulario Registrar Información de Ventas
-
-1. Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
-
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
-
----
-
-### Formulario Registrar Información de Costos
-
-1. Ingresar datos requeridos en Grid ***"gPlantData"***.
-
-2. Ingresar datos requeridos en Grid ***"gAccountingData"***.
-
-3. Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
-
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
-
----
-
-### Formulario Registrar Información de Alamcenamiento
-
-1. Se debe seleccionarl al menos un almacen y ***"Generar Datos de Ubicación de Almacenamiento"***.
-
-2. Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
-
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
-
----
-
-### Formulario Realizar Validación Técnica
-
-1. Marcar una de las opciones del campo ***Datos correctos*** .
-
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
-
----
-
-### Formulario Gestionar Código SAP
-
-1. Marcar una de las opciones del campo ***Gestionar Datos de material en SAP*** .
-
-> :information_source:  **Info**  
-> _Con los anteriores pasos ya es posible guardar el formulario._
-
----
+12. [Revisar y Crear en SAP](./furmularios/91_revisar_y_crear_en_sap.md "Revisar y Crear en SAP")
+    
+13. [	Aprobación Vicepresidencia o Sociedad](./furmularios/92_aprobacion_videpresidencia_o_sociedad.md "Aprobación Vicepresidencia o Sociedad")
