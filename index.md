@@ -2,10 +2,31 @@
 
 - ## 📚 Tabla de Contenido
 
-1. [Diagramas](index.md#-diagramas "Diagramas")
-2. [Descripción General](index.md#-descripción-general "Descripción General")
-3. [Diligenciamiento Formularios](index.md#-diligenciamiento-formularios "Diligenciamiento Formularios")
-4. [Código](index.md#-código "Código")
+- [Materiales](#materiales)
+  - [↗️ Diagramas](#-diagramas)
+    - [Diagrama Flujo](#diagrama-flujo)
+    - [Prueba Solicitud](#prueba-solicitud)
+    - [Bosquejo](#bosquejo)
+    - [Proceso](#proceso)
+    - [Actividades](#actividades)
+  - [📋 Diligenciamiento Formularios](#-diligenciamiento-formularios)
+    - [80 Registrar Solicitud](#80-registrar-solicitud)
+    - [81 Registrar Datos Planificación Base](#81-registrar-datos-planificación-base)
+    - [82 Registrar Datos de Impuestos](#82-registrar-datos-de-impuestos)
+    - [83 Registrar Planificación Producción](#83-registrar-planificación-producción)
+    - [84 Registrar Planificación Contabilidad](#84-registrar-planificación-contabilidad)
+    - [85 Registrar Planificación Compras](#85-registrar-planificación-compras)
+    - [86 Registrar Datos de Calidad](#86-registrar-datos-de-calidad)
+    - [87 Registrar Información de Costos](#87-registrar-información-de-costos)
+    - [88 Registrar Información de Ventas](#88-registrar-información-de-ventas)
+    - [89 Registrar Información de Almacenamiento](#89-registrar-información-de-almacenamiento)
+    - [90 Realizar Validación Técnica](#90-realizar-validación-técnica)
+    - [91 Revisar y Crear en SAP](#91-revisar-y-crear-en-sap)
+    - [92 Aprobación Vicepresidencia o Sociedad](#92-aprobación-vicepresidencia-o-sociedad)
+  - [📝 Código](#-código)
+    - [getActividadesFlujoGenerables](#getactividadesflujogenerables)
+    - [Definicion](#definicion)
+    - [Método C#](#método-c)
 
 - ## ↗️ Diagramas
 
@@ -80,34 +101,173 @@ Materiales: **8**
 
 ## 📋 Diligenciamiento Formularios
 
-1. [Registrar Solicitud](./furmularios/index.md "Formulario Registrar Solicitud")
+### 80 Registrar Solicitud
 
-2. [Registrar Datos Planificación Base](./furmularios/81_registrar_datos_planificacion_base.md "Registrar Datos Planificación Base")
+- Se debe seleccionar el ***Tipo de Material*** para que se cargue la configuración establecida en el parametrizador de campos para este ese material.
 
-3. [Registrar Datos de Impuestos](./furmularios/82_registrar_datos_de_impuestos.md "Registrar Datos de Impuestos")
+- Se debe seleccionar una ***Vicepresidencia*** para que se filtren las sociedades.
 
-4. [Registrar Planificación Producción](./furmularios/83_registrar_planificacion_produccion.md "Registrar Planificación Producción")
+- Se debe seleccionar al menos una ***sociedad***.
 
-5. [Registrar Planificación Contabilidad](./furmularios/84_registrar_planificacion_contabilidad.md "Registrar Planificación Contabilidad")
+- Se debe seleccionar una ***Clave*** para que se pueda generar una descripción.
 
-6. [Registrar Planificación Compras](./furmularios/85_registrar_planificacion_compras.md "Registrar Planificación Compras")
+- Los campos ***Denominación*** y ***Descripción larga*** se cargan de acuerdo a lo registrado al ***Generar la Descripción***.
 
-7. [Registrar Datos de Calidad](./furmularios/86_registrar_datos_calidad.md "Registrar Datos de Calidad")
+- Se debe seleccionar al menos un ***Centro*** y ***Generar los Datos de Centro***.
 
-8. [Registrar Información de Costos](./furmularios/87_registrar_informacion_de_costos.md "Registrar Información de Costos")
+> :information_source:  **Info**  
+> _Con los anteriores pasos ya es posible guardar el formulario._
+>
 
-9. [Registrar Información de Ventas](./furmularios/88_registrar_informacion_de_ventas.md "Registrar Información de Ventas")
+### 81 Registrar Datos Planificación Base
 
-10. [Registrar Información de Alamcenamiento](./furmularios/89_registrar_informacion_de_almacenamiento.md "Registrar Información de Almacenamiento")
+- Ingresar datos requeridos en Grid ***"gPlantData"***.
 
-11. [Realizar Validación Técnica](./furmularios/90_realizar_validacion_tecnica.md "Realizar Validación Técnica")
+- Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
 
-12. [Revisar y Crear en SAP](./furmularios/91_revisar_y_crear_en_sap.md "Revisar y Crear en SAP")
+> :information_source:  **Info**  
+> _Con los anteriores pasos ya es posible guardar el formulario._
 
-13. [	Aprobación Vicepresidencia o Sociedad](./furmularios/92_aprobacion_videpresidencia_o_sociedad.md "Aprobación Vicepresidencia o Sociedad")
+---
+
+### 82 Registrar Datos de Impuestos
+
+- Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
+
+> :information_source:  **Info**  
+> _Con los anteriores pasos ya es posible guardar el formulario._
+
+---
+
+### 83 Registrar Planificación Producción
+
+---
+
+### 84 Registrar Planificación Contabilidad
+
+---
+
+### 85 Registrar Planificación Compras
+
+---
+
+### 86 Registrar Datos de Calidad
+
+---
+
+### 87 Registrar Información de Costos
+
+- Ingresar datos requeridos en Grid ***"gPlantData"***.
+
+- Ingresar datos requeridos en Grid ***"gAccountingData"***.
+
+- Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
+
+> :information_source:  **Info**  
+> _Con los anteriores pasos ya es posible guardar el formulario._
+
+---
+
+### 88 Registrar Información de Ventas
+
+- Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
+
+> :information_source:  **Info**  
+> _Con los anteriores pasos ya es posible guardar el formulario._
+
+---
+
+### 89 Registrar Información de Almacenamiento
+
+- Se debe seleccionarl al menos un almacen y ***"Generar Datos de Ubicación de Almacenamiento"***.
+
+- Marcar una de las opciones del campo ***¿Reasignar solicitud?*** .
+
+> :information_source:  **Info**  
+> _Con los anteriores pasos ya es posible guardar el formulario._
+
+---
+
+### 90 Realizar Validación Técnica
+
+- Marcar una de las opciones del campo ***Datos correctos*** .
+
+> :information_source:  **Info**  
+> _Con los anteriores pasos ya es posible guardar el formulario._
+
+---
+
+### 91 Revisar y Crear en SAP
+
+- Marcar una de las opciones del campo ***Gestionar Datos de material en SAP*** .
+
+> :information_source:  **Info**  
+> _Con los anteriores pasos ya es posible guardar el formulario._
+
+---
+
+### 92 Aprobación Vicepresidencia o Sociedad
+
+---
+
 
 ## 📝 Código
 
-- [getActividadesFlujoGenerables()](./codigo/getActividadesFlujoGenerables.md "getActividadesFlujoGenerables()")
+### getActividadesFlujoGenerables
+
+### Definicion
+
+Este método se encarga de validar las tareas que tengan algún campo parametrizado y en caso de que encuentre al menos un campo le inserta el valor “SI” al TAG de esa actividad en el flujo.
+
+### Método C#
+
+```
+public static DataTable getActividadesFlujoGenerables(string tipoMaterial)
+{
+    string sql = @"SELECT 
+                        CASE 
+                            WHEN a.codigo = 80 THEN 'TRSOL'
+                            WHEN a.codigo = 81 THEN 'TRDPLANB'
+                            WHEN a.codigo = 82 THEN 'TRDIMP' 
+                            WHEN a.codigo = 83 THEN 'TRPPROD' 
+                            WHEN a.codigo = 84 THEN 'TRPCONT' 
+                            WHEN a.codigo = 85 THEN 'TRPCOMP' 
+                            WHEN a.codigo = 86 THEN 'TRDCAL'
+                            WHEN a.codigo = 87 THEN 'TRICOS'
+                            WHEN a.codigo = 88 THEN 'TRIVEN'
+                            WHEN a.codigo = 89 THEN 'TRIALM'
+                        ELSE '' END id, 
+                        CASE 
+                            WHEN c.requiereCampos > 0 AND a.codigo = 80 THEN 'SI' 
+                            WHEN c.requiereCampos > 0 AND a.codigo = 81 THEN 'SI' 
+                            WHEN c.requiereCampos > 0 AND a.codigo = 82 THEN 'SI' 
+                            WHEN c.requiereCampos > 0 AND a.codigo = 83 THEN 'SI' 
+                            WHEN c.requiereCampos > 0 AND a.codigo = 84 THEN 'SI' 
+                            WHEN c.requiereCampos > 0 AND a.codigo = 85 THEN 'SI' 
+                            WHEN c.requiereCampos > 0 AND a.codigo = 86 THEN 'SI'
+                            WHEN c.requiereCampos > 0 AND a.codigo = 87 THEN 'SI'
+                            WHEN c.requiereCampos > 0 AND a.codigo = 88 THEN 'SI'
+                            WHEN c.requiereCampos > 0 AND a.codigo = 89 THEN 'SI'
+                        ELSE 'NO' END valor
+                    FROM (
+                            SELECT a.asu_id codigo, a.asu_nombre texto
+                            FROM asuntos2 a
+                            WHERE a.asu_tso_id = 8
+                        ) a
+                        LEFT JOIN 
+                        (
+                            SELECT cfc_conceptoBusqueda, SUM(CASE WHEN cfc_requerido > 0 THEN 1 ELSE 0 END) requiereCampos
+                            FROM frm_mae_configFormularioCampos
+                            GROUP BY cfc_conceptoBusqueda
+                        ) c ON c.cfc_conceptoBusqueda = @tipoMaterial + CONVERT(NVARCHAR(10), a.codigo)
+                    WHERE a.codigo IN(80,81,82, 83, 84, 85, 86, 87, 88, 89)";
+
+    GenericProvider gp = new GenericProvider(EasyConfigH.getString("ConnectionStrings", "ConnectionString"));
+    DataTable result = gp.GetTable(sql, CommandType.Text
+                                                , gp.GetDBParameter("@tipoMaterial", tipoMaterial));
+
+    return result;
+}
+```
 
 
